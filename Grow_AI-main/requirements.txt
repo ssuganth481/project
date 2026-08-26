@@ -1,0 +1,10 @@
+django
+djangorestframework
+Pillow
+django-cors-headers
+google-genai
+groq
+moviepy
+requests
+pytrends
+python-dotenv

@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
+*.env
+.env
+backend-new/media/
+*.jpg
+*.png
+!screenshots/*.jpg
+!screenshots/*.png
+*.sqlite3
+AI_Logic/cache_images/
+AI_Logic/output/
+node_modules/
+*.log

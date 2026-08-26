@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+db.sqlite3
+AI_Logic/cache_images/
+AI_Logic/output/
