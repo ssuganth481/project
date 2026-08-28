@@ -56,7 +56,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const loginWithCredentials = (email: string, role: UserRole, customName?: string) => {
     const user: User = {
       id: `usr-${Date.now()}`,
-      name: customName || (role === 'student' ? 'Alex Johnson' : role === 'faculty' ? 'Dr. Sarah Lin' : 'Administrator'),
+      name: customName || (role === 'student' ? 'Suganth S' : role === 'faculty' ? 'Dr. Sarah Lin' : 'Administrator'),
       email: email,
       role: role,
       avatar: role === 'student'

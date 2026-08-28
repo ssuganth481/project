@@ -215,8 +215,8 @@ export const initialStudents: Student[] = [
   {
     id: 'stu-001',
     studentId: 'APX2023CSE042',
-    fullName: 'Alex Johnson',
-    email: 'alex.johnson@apex.edu',
+    fullName: 'Suganth S',
+    email: 'suganth.s@apex.edu',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
     department: 'Computer Science & Engineering',
     program: 'B.Tech CSE',
@@ -978,8 +978,8 @@ export const initialAdmissions: AdmissionApplication[] = [
 export const demoUsers: Record<string, User> = {
   student: {
     id: 'usr-student',
-    name: 'Alex Johnson',
-    email: 'alex.johnson@apex.edu',
+    name: 'Suganth S',
+    email: 'suganth.s@apex.edu',
     role: 'student',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
     studentId: 'APX2023CSE042',

@@ -170,6 +170,11 @@ export const PortalSidebar: React.FC<PortalSidebarProps> = ({
         >
           <LogOut className="w-3.5 h-3.5" /> Sign Out
         </button>
+
+        <div className="pt-2 border-t border-slate-800/60 flex items-center justify-between text-[11px] px-1 text-slate-400">
+          <span>Developed by</span>
+          <span className="font-bold text-indigo-300">Suganth S</span>
+        </div>
       </div>
     </aside>
   );

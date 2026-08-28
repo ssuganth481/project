@@ -194,6 +194,18 @@ const MainLayout: React.FC = () => {
         onClose={() => setIsCommandPaletteOpen(false)}
         onNavigate={handleNavigate}
       />
+
+      {/* Left Bottom Developer Name Badge */}
+      <div className="fixed bottom-4 left-4 z-40 flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 backdrop-blur-md shadow-xl shadow-black/50 text-xs text-slate-300 hover:border-indigo-500/50 hover:bg-slate-900 transition-all select-none group">
+        <span className="relative flex h-2 w-2">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+        </span>
+        <span className="text-[11px] text-slate-400 group-hover:text-slate-300 transition-colors">Developed by</span>
+        <span className="font-bold text-indigo-300 bg-indigo-500/10 px-2 py-0.5 rounded-md border border-indigo-500/20 text-xs tracking-wide">
+          Suganth S
+        </span>
+      </div>
     </div>
   );
 };
